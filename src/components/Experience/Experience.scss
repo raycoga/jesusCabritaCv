@@ -1,0 +1,11 @@
+.Experience{
+  overflow-y: visible;
+  
+  .ant-card{
+    border-radius: 16px ;
+    filter: drop-shadow(0 0 3px rgba(143, 143, 143, 0.308));
+    .ant-card-type-inner, .ant-card-head {
+        border-radius: 16px 16px 0 0 !important ;
+    }
+  }  
+}
